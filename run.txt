@@ -1,0 +1,11 @@
+export JAVA_HOME=`/usr/libexec/java_home -v 11.0`
+
+mvn clean install
+
+./scripts/build.sh
+
+mvn com.github.ferstl:depgraph-maven-plugin:aggregate -DcreateImage=true -DreduceEdges=false -Dscope=compile "-Dincludes=io.github.jmgarridopaz.bluezone:*:*"
+
+./scripts/run_bluezone.sh
+
+http://localhost:8080/bluezone

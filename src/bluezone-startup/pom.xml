@@ -53,6 +53,10 @@
 		</dependency>
 		<dependency>
 			<groupId>io.github.jmgarridopaz.bluezone</groupId>
+			<artifactId>bluezone-adapter-forstoringtickets-filesystem</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.github.jmgarridopaz.bluezone</groupId>
 			<artifactId>bluezone-adapter-forpaying-spy</artifactId>
 		</dependency>
 	</dependencies>
