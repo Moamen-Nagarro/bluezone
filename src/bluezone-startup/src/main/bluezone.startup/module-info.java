@@ -6,17 +6,19 @@ module bluezone.startup {
 
 	// DEPENDS ON
 	// all the other modules
-	requires bluezone.hexagon;
 	requires bluezone.driver.forparkingcars.test;
-	requires bluezone.driver.forcheckingcars.test;
+//	requires bluezone.driver.forcheckingcars.test;
+//	requires bluezone.driver.forcheckingcars.cli;
 	requires bluezone.adapter.forparkingcars.webui;
 	requires bluezone.adapter.forobtainingrates.stub;
 	requires bluezone.adapter.forstoringtickets.fake;
 	requires bluezone.adapter.forpaying.spy;
-	requires io.github.jmgarridopaz.lib.portsadapters;
-	requires io.github.jmgarridopaz.lib.javalangutils;
+    requires io.github.jmgarridopaz.bluezone.driver.forcheckingcars.cli;
+    requires io.github.jmgarridopaz.lib.portsadapters;
+    requires bluezone.hexagon;
+    requires io.github.jmgarridopaz.lib.javalangutils;
 
-	// SERVICES
+    // SERVICES
 	uses ForObtainingRates;
 	uses ForStoringTickets;
 	uses ForPaying;

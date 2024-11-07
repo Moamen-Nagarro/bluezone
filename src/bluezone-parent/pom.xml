@@ -28,6 +28,7 @@
 		<bluezone.driver.forparkingcars.test.version>1.0.0</bluezone.driver.forparkingcars.test.version>
 		<bluezone.adapter.forparkingcars.webui.version>1.0.0</bluezone.adapter.forparkingcars.webui.version>
 		<bluezone.driver.forcheckingcars.test.version>1.0.0</bluezone.driver.forcheckingcars.test.version>
+		<bluezone.driver.forcheckingcars.cli.version>1.0.0</bluezone.driver.forcheckingcars.cli.version>
 		<bluezone.adapter.forobtainingrates.stub.version>1.0.0</bluezone.adapter.forobtainingrates.stub.version>
 		<bluezone.adapter.forstoringtickets.fake.version>1.0.0</bluezone.adapter.forstoringtickets.fake.version>
 		<bluezone.adapter.forstoringtickets.filesystem.version>1.0.0</bluezone.adapter.forstoringtickets.filesystem.version>
@@ -83,10 +84,15 @@
 				<artifactId>bluezone-adapter-forparkingcars-webui</artifactId>
 				<version>${bluezone.adapter.forparkingcars.webui.version}</version>
 			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>io.github.jmgarridopaz.bluezone</groupId>-->
+<!--				<artifactId>bluezone-driver-forcheckingcars-test</artifactId>-->
+<!--				<version>${bluezone.driver.forcheckingcars.test.version}</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>io.github.jmgarridopaz.bluezone</groupId>
-				<artifactId>bluezone-driver-forcheckingcars-test</artifactId>
-				<version>${bluezone.driver.forcheckingcars.test.version}</version>
+				<artifactId>bluezone-driver-forcheckingcars-cli</artifactId>
+				<version>${bluezone.driver.forcheckingcars.cli.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>io.github.jmgarridopaz.bluezone</groupId>

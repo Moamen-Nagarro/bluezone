@@ -1,7 +1,8 @@
 package io.github.jmgarridopaz.bluezone.startup;
 
 import io.github.jmgarridopaz.bluezone.adapter.forparkingcars.webui.ForParkingCarsWebUIDriver;
-import io.github.jmgarridopaz.bluezone.driver.forcheckingcars.test.ForCheckingCarsTestDriver;
+//import io.github.jmgarridopaz.bluezone.driver.forcheckingcars.test.ForCheckingCarsTestDriver;
+import io.github.jmgarridopaz.bluezone.driver.forcheckingcars.cli.ForCheckingCarsCliDriver;
 import io.github.jmgarridopaz.bluezone.driver.forparkingcars.test.ForParkingCarsTestDriver;
 import io.github.jmgarridopaz.bluezone.hexagon.factory.BlueZoneApp;
 import io.github.jmgarridopaz.bluezone.hexagon.ports.driven.forobtainingrates.ForObtainingRates;
@@ -67,7 +68,7 @@ public class DependencyConfigurator {
         }
         if (driverPortType.getSimpleName().equals(ForCheckingCars.class.getSimpleName())) {
             if (AdapterSelector.TEST_CASES.equals(adapterName)) {
-                return new ForCheckingCarsTestDriver(blueZoneApp.carChecker(), blueZoneApp.appConfigurator());
+                return new ForCheckingCarsCliDriver(blueZoneApp.carChecker(), blueZoneApp.appConfigurator());
             }
             throw new RuntimeException("No driver with name '" + adapterName + "' found for driver port '" + driverPortType.getSimpleName() + "'");
         }

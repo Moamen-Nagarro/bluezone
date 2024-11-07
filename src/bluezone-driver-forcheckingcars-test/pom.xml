@@ -11,7 +11,7 @@
 		<relativePath>../bluezone-parent</relativePath>
 	</parent>
 
-	<artifactId>bluezone-driver-forcheckingcars-test</artifactId>
+<!--	<artifactId>bluezone-driver-forcheckingcars-test</artifactId>-->
 
 	<packaging>jar</packaging>
 

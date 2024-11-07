@@ -1,0 +1,50 @@
+{
+  "0000000661": {
+    "code": "0000000661",
+    "carPlate": "6989JJH",
+    "rateName": "GREEN_ZONE",
+    "startingDateTime": "2022-06-11T10:00:00",
+    "endingDateTime": "2022-06-11T10:30:00",
+    "price": 0.60
+  },
+  "0000000001": {
+    "code": "0000000001",
+    "carPlate": "343434",
+    "rateName": "BLUE_ZONE",
+    "startingDateTime": "2024-11-07T14:44:42.159179",
+    "endingDateTime": "2029-09-30T07:44:42.159179",
+    "price": 34324
+  },
+  "0000000660": {
+    "code": "0000000660",
+    "carPlate": "1365MDS",
+    "rateName": "BLUE_ZONE",
+    "startingDateTime": "2022-06-11T09:30:00",
+    "endingDateTime": "2022-06-11T11:00:00",
+    "price": 1.20
+  },
+  "0000001155": {
+    "code": "0000001155",
+    "carPlate": "1365MDS",
+    "rateName": "GREEN_ZONE",
+    "startingDateTime": "2022-06-17T12:15:00",
+    "endingDateTime": "2022-06-17T12:45:00",
+    "price": 0.60
+  },
+  "0000000658": {
+    "code": "0000000658",
+    "carPlate": "6989JJH",
+    "rateName": "BLUE_ZONE",
+    "startingDateTime": "2022-06-11T08:30:00",
+    "endingDateTime": "2022-06-11T09:00:00",
+    "price": 0.40
+  },
+  "0000000659": {
+    "code": "0000000659",
+    "carPlate": "6989JJH",
+    "rateName": "BLUE_ZONE",
+    "startingDateTime": "2022-06-11T09:15:00",
+    "endingDateTime": "2022-06-11T10:15:00",
+    "price": 0.80
+  }
+}
